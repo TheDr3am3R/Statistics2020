@@ -1,1 +1,4 @@
+1_RA. 
+Observe carefully the different way C# and VB.NET deals with events and the different ways to define the event handlers. Discuss in your blog what differences you can spot. Which way do you find easier or more comfortable and why ?
 
+The main difference I can find is mostly syntactical, as VB.NET is a higher level programming language it deals directly with keywords and an "easier" assignement of attributes, while C# has an approach similar to C++, as it shares a good part of syntax definitions, and so adds handlers just like an attribute. I find myself more inclined to higher level programming languages, such as Python, so I would prefer VB.NET
