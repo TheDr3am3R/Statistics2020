@@ -1,1 +1,6 @@
+3_R. 
+Explain the differences between a (univariate) dataset and  a (univariate)  frequency distribution. Given a distribution can we reconstruct the dataset? why ?
+How would you describe the change of amount of information passing from the dataset to the distribution?
 
+
+A univariate dataset is a dataset in which each data consist of only one variable.  A univariate frequency distribution is a frequency distribution analyzing only one variable, thus showing only one attribute value and the percentage related to it. Given a generic distribution, we cannot reconstruct the exact starting dataset as the granularity of the information gets lost, as the distribution allows us to have a more complete perspective on the data. there is, thus, a trade-off between the exactness of information and the properties and behaviours that can be extrapolated.
