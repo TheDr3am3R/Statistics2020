@@ -1,1 +1,5 @@
 
+2_RA. 
+Note that any C# will have a Program.cs file in its solution folder while VB.NET does not. On the other hand, VB.NET has the file Application.Designer.vb within the project folder. Try to research what these (automatically created) files are doing in your application and try to discover / reverse engineer the differences on how a C# and VB.NET program are started.
+
+Both files are the starting point of the execution of the programs. The main difference is that Program.cs contain a main class, thus executing the program in a standard way, while Application.Designer.vb handles the start of the execution having also in storage some of the property of the execution.
