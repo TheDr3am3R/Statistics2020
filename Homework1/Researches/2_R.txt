@@ -1,1 +1,6 @@
 
+2_R. 
+Describe the notion of statistical attributes/variables and dataset, and explain how a dataset is generated.
+
+In statistics, an attribute is a characteristic that describes an entity of interest, while a variable is A variable is a logical set of attributes, in fact varying among the elements of the set. 
+A dataset is a collection of data. Most commonly it refers to a set of structured data. It's dimention is the number of elements in the dataset. A dataset can be created collecting data and tables from various entities. They have to be correctly and coherently labeled and structured to create a good relational dataset.
