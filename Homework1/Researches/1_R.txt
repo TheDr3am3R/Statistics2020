@@ -1,1 +1,10 @@
 
+1_R. 
+Describe the notion of statistical population. What is a population in Descriptive Statistics and what is a population in Inferential Statistics: point out the differences.
+
+A statistical population is defined as a set of similar items or events which is of interest for some question or experiment [1]. According to inferential statistics, which uses an inductive type of reasoning, from a sample you can make assumptions on the poputlation. According to descriptive statistics, instead, you use graphs and data to describe your population.
+
+
+[1] http://www.statistics.com/glossary&term_id=812
+[2] https://www.statisticshowto.com/inferential-statistics/#:~:text=Descriptive%20statistics%20describes%20data%20(for,make%20generalizations%20about%20a%20population.
+[3] https://en.wikipedia.org/wiki/Statistical_population
