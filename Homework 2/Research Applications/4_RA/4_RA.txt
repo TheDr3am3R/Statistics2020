@@ -2,3 +2,12 @@
 Understand how the floating point representation works and describe systematically (possibly using categories) all the 
 possible problems that can happen. Try to classify the various issues and limitations (representation, comparison, rounding, 
 propagation, approximation, loss of significance, cancellation, etc.) and provide simple examples for each of the categories you have identified
+
+Floating point representation is the way to overcome, partially, the limitation of constrained architectures and issues of base 2 representations. Floating point numbers are divided in a significand, containing the significative figures of the number, and exponent, the exponent needed to represent the number.
+
+This leads to issues such as:
+
+Rounding: The original number might need to be rounded up in order to fit in its memory area. So, the next issue
+Comparison: due to rounding, the comparison between two decimal numbers might give the wrong result (ex. Boolean equal)
+Propagation: from the comparison issue, a propagation of error and uncertainty may lead to big loss of precision
+Loss of signiicance: loss of significant figures in the end result of the representation
