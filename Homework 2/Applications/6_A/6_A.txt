@@ -1,0 +1,4 @@
+6_A. 
+Create one or more simple sequences of numbers which clearly show the problem with the "naive" definition
+formula of the arithmetic mean, and explore possible ways to fix that.
+Provide alternative algorithms to minimize problems with the floating point representation with simple demos with actual numbers
