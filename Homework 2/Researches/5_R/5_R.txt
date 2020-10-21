@@ -3,3 +3,24 @@ Describe the most common configuration of data repositories in the real world an
 Concepts such as Operational or Transactional systems (OLTP), Data Warehouse DW, Data Marts, Analytical and 
 statistical systems (OLAP), etc. Try to draw a conceptual picture of how all these components may work together 
 and how the flow of data and information is processed to extract useful knowledge from raw data.
+
+
+OLTP: 
+OnLine transaction processing: The term "transaction" can have two different meanings, both of which might apply: in the realm of computers or database transactions it denotes an atomic change of state, whereas in the realm of business or finance, the term typically denotes an exchange of economic entities. OLTP may use transactions of the first type to record transactions of the second.
+
+DW:
+Data Warehouses: They are a type of data management system constructed to support data analysis. Data warehouses contain historical data and are used to perfrom qyeries and analysis.
+
+Data Marts:
+Data marts are collectors of data oriented to a specific business line or team.
+
+OLAP:
+OnLine Analytical Processing:  is an approach to answer multi-dimensional analytical (MDA) queries swiftly in computing. IT's purpose is extrapolating information from the data collected. 
+
+The professor explained in class how all these entities work together. The modeled the data as a stream, flowing from the OLTP, collecting info from the measurements needed, being "clensed" by the DW, categorizing and storing it. Furhter separation is done by the Data marts, ending with OLAP creating the needed info from the stream of data.
+
+Refs.
+wikipedia.org/it/OLTP
+https://www.oracle.com/it/database/what-is-a-data-warehouse/
+wikipedia.org/it/OLAP
+wikipedia.org/it/Data_marts
