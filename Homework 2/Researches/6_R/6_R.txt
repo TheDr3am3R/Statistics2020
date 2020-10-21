@@ -1,3 +1,6 @@
 6_R. 
 Show how we can obtain an online algo for the arithmetic mean and explain the various possible reasons why it is preferable to the "naive" algo based on the definition.
 
+We can obtain an anling algorithm for the arithmetic mean using Knuth's recursive algorithm instead of the classic definition of arithmetic mean. This is due to a problem of integer representation and size of data in PCs. As we know, number representation is well defined, but the classic definition of mean can lead to overflows, errors in measurement of false data. Knut's algorithms overcomes that by calculating the mean at the n-th step by adding the mean to the previous step to the error between the previous mean and the n-th measurement and mutliplying the latter by 1/n.
+
+-> (avg) n-th step = (avg) n-1 -th step + 1/n* ((measurement n)- ((avg) n-1 -th step))
