@@ -1,0 +1,9 @@
+Class OLAvg
+        Public Property avg As Double = 0.0
+        Public Property count As Integer = 0
+        
+        Public Sub OnLineAverage(ByVal number As Double)
+            Me.count += 1
+            Me.avg = Me.avg + ((1/count)*( number - Me.avg)
+        End Sub
+End Class
