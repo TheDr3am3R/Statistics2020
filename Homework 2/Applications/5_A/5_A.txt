@@ -1,0 +1,4 @@
+5_A. 
+Create - in your preferred language C# or VB.NET - a demonstrative program which computes the online arithmetic mean (or "running mean")
+and distribution for a continuous variable (can use random simulated values). Make the code as general and reusable as possible, as it 
+must be used in your next applications and exam.
