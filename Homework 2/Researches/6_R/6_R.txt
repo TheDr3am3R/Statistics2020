@@ -1,0 +1,3 @@
+6_R. 
+Show how we can obtain an online algo for the arithmetic mean and explain the various possible reasons why it is preferable to the "naive" algo based on the definition.
+
