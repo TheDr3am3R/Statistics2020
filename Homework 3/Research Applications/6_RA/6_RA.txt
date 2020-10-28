@@ -1,1 +1,13 @@
 
+6_RA. 
+
+Do a comprehensive research about the GRAPHICS (GDI+ library) object and all its members.
+
+The Graphics class provides methods for drawing lines, curves, figures, images, and text. A Graphics object stores attributes of the display device and attributes of the items to be drawn. GDI is responsible for tasks such as drawing lines and curves, rendering fonts and handling palettes. It is not directly responsible for drawing windows, menus, etc.; that task is reserved for the user subsystem, which resides in user32.dll and is built atop GDI. Other systems have components that are similar to GDI, for example macOS' Quartz and X Window System's Xlib/XCB.
+
+GDI's most significant advantages over more direct methods of accessing the hardware are perhaps its scaling capabilities and its abstract representation of target devices. Using GDI, it is very easy to draw on multiple devices, such as a screen and a printer, and expect proper reproduction in each case. This capability is at the center of most "What You See Is What You Get" applications for Microsoft Windows. GDI+ brings improvements by GDI+ adding anti-aliased 2D graphics, floating point coordinates, gradient shading, more complex path management, intrinsic support for modern graphics-file formats like JPEG and PNG, and support for composition of affine transformations in the 2D view pipeline. GDI+ uses ARGB values to represent color. 
+
+
+Refs
+https://docs.microsoft.com/en-us/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics
+https://en.wikipedia.org/wiki/Graphics_Device_Interface
