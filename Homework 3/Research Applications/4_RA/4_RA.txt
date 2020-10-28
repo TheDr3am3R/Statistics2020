@@ -1,1 +1,9 @@
 
+4_RA. 
+Find on the internet and document all possible ways you can infer a suitable data type, useful for statistical processing, when you are getting data points as a flow of alphanumeric strings ( https://en.wikipedia.org/wiki/Alphanumericc , https://stackoverflow.com/questions/5311699/get-datatype-from-values-passed-as-string/5325687. Be aware of possible format difference due to language.)
+
+There are various way to infer a suitable data type for an alphanumeric set of string. Most of the material I found online deals mostly with type-checking more than proper type inference. on the stackoverflow post linked, we can easily see how the most voted soution actually tries types until it finds the most suitable one. Type inference, though, isn't an exact science, so we rely on some algorithms to clear the path, Hindley-Milner algorithm type system can provide more complete type inference. The ability to infer types automatically makes many programming tasks easier, leaving the programmer free to omit type annotations while still permitting type checking.
+Further methods rely on regular expressions (RegEx)
+
+References:
+https://stackoverflow.com/questions/13314215/java-how-to-infer-type-from-data-coming-from-multiple-sources
