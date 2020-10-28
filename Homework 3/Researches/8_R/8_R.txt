@@ -1,1 +1,10 @@
 
+8_R. 
+Explain the concept of statistical independence and why, in case of independence, the relative joint frequencies are equal to the products of the corresponding marginal frequencies
+
+Two events are independent, statistically independent, or stochastically independent if the occurrence of one does not affect the probability of occurrence of the other. 
+From the definition, two events are indipendent  if and only if their joint probability equals the product of their probabilities. This can be easily explained
+by the set view of statistics. If P(A union B) = p(A+B) - P(A intersection B), => as A and B are independent, the intersection is 0 -> P(A union B) = P(A)*P(B)
+
+References
+https://en.wikipedia.org/wiki/Independence_(probability_theory)
