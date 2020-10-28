@@ -1,1 +1,32 @@
 
+7_R.
+Explain what are marginal, joint and conditional distributions and how we can explain the Bayes theorem using relative frequencies.
+
+Joint probability is the probability of two events occurring simultaneously. This can be stated formally as follows:
+P(A and B) = P(A given B) * P(B), which is symmetrycal, as such: P(A and B) = P(A given B) * P(B) = P(B given A) * P(A)
+
+Marginal probability is the probability of an event irrespective of the outcome of another variable. There is no special notation for the marginal probability,
+as such is the just the sumover all the probabilities of all events for the second variable for a given fixed event for the first variable.
+P(X=A) = sum P(X=A, Y=yi) for all y
+
+Conditional probability is the probability of one event occurring in the presence of a second event. he conditional probability for events A given event B is calculated as follows:
+P(A given B) = P(A and B) / P(B)
+This calculation assumes that the probability of event B is not zero, e.g. is not impossible.
+
+From these concepts derive their respective probability distributions:
+the joint probability distribution for multiple  random variables is a probability distribution that gives the probability that each of random bariables falls in any particular range or discrete set of values specified for that variable.
+
+the marginal distribution of a subset of a collection of random variables is the probability distribution of the variables contained in the subset. It gives the probabilities of various values of the variables in the subset without reference to the values of the other variables.
+
+Given two jointly distributed random variables (X, Y ), the conditional probability distribution of Y given X is the probability distribution of Y when X is known to be a particular value; in some cases the conditional probabilities may be expressed as functions containing the unspecified value x of X as a parameter.
+
+
+Bayes's theorem can be interpreted in a frequentist point of view, where probability measures a "proportion of outcomes", such as for determining absolute frequencies from experimental data. For example P(A) is the proportion of outcomes with property A (the prior) and P(B) is the proportion with property B. P(B | A) is the proportion of outcomes with property B out of outcomes with property A, and P(A | B) is the proportion of those with A out of those with B (the posterior).
+
+
+References
+https://machinelearningmastery.com/joint-marginal-and-conditional-probability-for-machine-learning/
+https://en.wikipedia.org/wiki/Conditional_probability_distribution
+https://en.wikipedia.org/wiki/Joint_probability_distribution
+https://en.wikipedia.org/wiki/Marginal_distribution
+https://en.wikipedia.org/wiki/Bayes%27_theorem#Frequentist_interpretation
