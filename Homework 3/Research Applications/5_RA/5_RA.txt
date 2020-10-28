@@ -1,1 +1,31 @@
 
+5_RA. 
+Do a research about Reflection and the type Type and make all examples that you deem to be useful. (eg,. http://csharp.net-tutorials.com/reflection/introduction/n/  http://www.codeproject.com/Articles/17269/Reflection-in-C-Tutorial  http://www.codeguru.com/csharp/csharp/cs_misc/reflection/article.php/c4257  http://www.youtube.com/watch?v=C-G7fobbBP0  http://www.codeproject.com/Articles/55710/Reflection-in-NET , etc.
+
+
+Reflection provides objects (of type Type) that describe assemblies, modules, and types. You can use reflection to dynamically create an instance of a type, bind the type to an existing object, or get the type from an existing object and invoke its methods or access its fields and properties. If you are using attributes in your code, reflection enables you to access them. Here are some useful examples:
+
+EX. 1
+// Using GetType to obtain type information:
+int i = 42;
+Type type = i.GetType();
+Console.WriteLine(type);
+
+The output will be System.Int32
+
+Ex. 2
+// Using Reflection to get information of an Assembly:
+Assembly info = typeof(int).Assembly;
+Console.WriteLine(info);
+
+The example above will output  "System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+
+To summarize, reflection is useful in various situations:
+
+-accessing attributes in your program's metadata.
+_examining and instantiating types in an assembly.
+_ building new types at runtime.
+-performing late binding, accessing methods on types created at run time.
+
+Refs:
+https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/reflection
