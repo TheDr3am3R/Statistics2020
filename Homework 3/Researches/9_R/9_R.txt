@@ -1,1 +1,33 @@
 
+9_R. 
+
+Do a review about charts useful for statistics and data presentation (example of some: StatCharts.txt ). What is the chart type that impressed you most and why ?
+
+-Bar grahs: is a way to visually represent qualitative data, displayed either horizontally or vertically. It easily allows viewers to compare attributes of the analyzed variables.
+
+-Pie charts: This kind of graph is helpful when graphing qualitative data, especially where the overall frequency is the most important characteristic to be shown
+
+-Histograms: This type of graph is used with quantitative data. Ranges of values, called classes, are listed at the bottom, and the classes with greater frequencies have taller bars.
+
+-Stem and Leaf plots: A stem and leaf plot breaks each value of a quantitative data set into two pieces: a stem, typically for the highest place value, and a leaf for the other place values.
+
+-dot plots: A dot plot is a hybrid between a histogram and a stem and leaf plot. Each quantitative data value becomes a dot or point that is placed above the appropriate class values. Where histograms use rectangles—or bars—these graphs use dots, which are then joined together with a simple line
+
+-scatter plots: A scatterplot displays data that is paired by using a horizontal axis (the x-axis), and a vertical axis (the y-axis). The statistical tools of correlation and regression are then used to show trends on the scatterplot
+
+-Time-series graphs: A time-series graph displays data at different points in time, so it is another kind of graph to be used for certain kinds of paired data. As the name implies, this type of graph measures trends over time
+
+Due to recent events, the kind of graph that strikes me the most is the pie chart. It might seem easy to use and even to high-level, but it main focus on percentages and how you
+can present data and even play with them giving true data but false correlations has a great impact in this time where statistics are everywhere but the extrapolated info is often strumentalized.
+
+
+References
+https://www.thoughtco.com/frequently-used-statistics-graphs-4158380
+https://en.wikipedia.org/wiki/Bar_chart
+https://en.wikipedia.org/wiki/Pie_chart
+https://en.wikipedia.org/wiki/Histogram
+https://en.wikipedia.org/wiki/Stem_and_Leaf_Plot
+https://en.wikipedia.org/wiki/Dot_plot
+https://en.wikipedia.org/wiki/Scatter_plot
+https://en.wikipedia.org/wiki/Time-series_graph
+https://www.statisticshowto.datasciencecentral.com/
